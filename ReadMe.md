@@ -14,7 +14,7 @@ Pseudocode:
 
 - Setup LogMessage function
     - takes 1 param: message
-
+- Check destination path and create it if it does not exist.
 - Get files from provided source folder path.
 - Iterate over them to check if they exist in destination folder.
 - Add files to destination folder if they don't exist and log action.
